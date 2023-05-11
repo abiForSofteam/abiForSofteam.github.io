@@ -8,7 +8,7 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   
   
-<span>{{ post.date | date: date_format }}!!!!!!!!!!!</span>
+<span>{{ post.date | date: "%-d %b, %Y"  }}!!!!!!!!!!!</span>
 {% assign date_english = post.date | date: date_format %}
 {% include date-french.html %}
 <span class="post-meta">{{ date_french }}</span>
