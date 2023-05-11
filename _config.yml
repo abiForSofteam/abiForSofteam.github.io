@@ -12,3 +12,4 @@ github_username:  aliyoub
 
 # Build settings
 markdown: kramdown
+permalink: /:categories/:title
