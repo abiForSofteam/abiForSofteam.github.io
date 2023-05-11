@@ -6,15 +6,15 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-<div>??????888888
-  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
--<span class="post-meta">{{ post.date | date: date_format }}</span>
+  
+  
+<span>{{ post.date | date: date_format }}!!!!!!!!!!!</span>
 {% assign date_english = post.date | date: date_format %}
 {% include date-french.html %}
 <span class="post-meta">{{ date_french }}</span>
-</div>
+  </header>
+
+
 
 
   <article class="post-content">
