@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Virtualisation"
+title:  Virtualisation
 date:   2023-05-11 16:15:17
 categories: infras
 ---
