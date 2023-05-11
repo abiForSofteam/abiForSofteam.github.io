@@ -6,7 +6,22 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  
+  
+<span>{{ page.date | date: "%-d %b, %Y"  }}!!!!!!!!!!!</span>
+{% assign date_english = post.date | date: date_format %}
+{% include date-french.html %}
+<span class="post-meta">{{ date_french }}</span>
+
+
+
+{% assign date_french = date_french | append: "janvier" %}
+{% when "May" %}
+{% assign date_french = date_french | append: "mai" %}
   </header>
+
+
+
 
   <article class="post-content">
     {{ content }}
