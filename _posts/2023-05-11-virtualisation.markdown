@@ -2,7 +2,7 @@
 layout: post
 title:  "Virtualisation"
 date:   2023-05-11 16:15:17
-categories: Infras
+categories: infras
 ---
 
 ## VIRTUALISATION - port forwarding
