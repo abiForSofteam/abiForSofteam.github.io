@@ -8,6 +8,12 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+-<span class="post-meta">{{ post.date | date: date_format }}</span>
++{% assign date_english = post.date | date: date_format %}
++{% include date-french.html %}
++<span class="post-meta">{{ date_french }}</span>
+
   <article class="post-content">
     {{ content }}
   </article>
