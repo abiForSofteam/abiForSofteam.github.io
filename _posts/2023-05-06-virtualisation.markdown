@@ -7,6 +7,7 @@ categories: infras
 
 ## VIRTUALISATION - port forwarding
 Cet article montre une façon d'accéder à une page web d'une machine virtuelle (sur laquelle j'installe le serveur nginx), un accès depuis le navigateur du host (et non de la machine virtuelle même).
+Objectif: travailler plus aisément et plus efficacement
 
 ### Environnement de travail
 Je précise que j'ai mis la VM en place à partir de Vagrant, en ayant choisi comme box, hashicorp/bionic64

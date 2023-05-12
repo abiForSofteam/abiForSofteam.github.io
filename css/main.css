@@ -287,29 +287,28 @@ pre {
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
-  line-height: 0.5;
-  font-family: Montserrat }
+  line-height: 0.5;}
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 36px;font-family: Montserrat; } }
+      font-size: 36px; } }
 
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
-    font-size: 32px; font-family: Montserrat;}
+    font-size: 32px;}
     @media screen and (max-width: 800px) {
       .post-content h2 {
-        font-size: 28px; font-family: Montserrat;} }
+        font-size: 28px;} }
   .post-content h3 {
     font-size: 26px; }
     @media screen and (max-width: 800px) {
       .post-content h3 {
-        font-size: 22px; font-family: Montserrat;} }
+        font-size: 22px; } }
   .post-content h4 {
-    font-size: 20px; font-family: Montserrat;}
+    font-size: 20px;}
     @media screen and (max-width: 800px) {
       .post-content h4 {
-        font-size: 18px; font-family: Montserrat;} }
+        font-size: 18px;} }
 
 /**
  * Syntax highlighting styles
