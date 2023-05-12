@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Virtualisation
+title:  VIRTUALISATION - port forwarding
 date:   2023-04-11 16:15:17
 categories: infras
 ---
 
-## VIRTUALISATION - port forwarding
+## Description
 Cet article montre une façon d'accéder à une page web d'une machine virtuelle (sur laquelle j'installe le serveur nginx), un accès depuis le navigateur du host (et non de la machine virtuelle même).
-Objectif: travailler plus aisément et plus efficacement
+\nObjectif: travailler plus aisément et plus efficacement
 
 ### Environnement de travail
 Je précise que j'ai mis la VM en place à partir de Vagrant, en ayant choisi comme box, hashicorp/bionic64
