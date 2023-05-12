@@ -2,3 +2,4 @@ _site
 .sass-cache
 gitpushauto.sh
 .gitignore
+vicss.sh
