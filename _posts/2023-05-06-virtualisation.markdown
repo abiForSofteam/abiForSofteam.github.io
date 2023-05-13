@@ -18,7 +18,7 @@ Nous travaillons donc sur le système ubuntu
 Je précise également que l'adresse ip que j'ai attribuée à la VM est la suivante : 
 192.168.56.10
 
-<sub>***Vagrant fera l'objet d'un prochain article***</sub>
+***Vagrant fera l'objet d'un prochain article***
 
 ## Installation du serveur web nginx sur la machine virtuelle
 En ligne de commande, l'installation du serveur web nginx se fait de la façon suivante:  
@@ -44,7 +44,6 @@ La Vérification de l'état du serveur se fait par la commande suivante:
 
 
 
-## <sub> Affichage de la page sur le navigateur de la machine hôte (bien que le serveur nginx soit installé sur la VM) </sub> 
-
+##  Affichage de la page sur le navigateur de la machine hôte (bien que le serveur nginx soit installé sur la VM) 
 <img src="https://raw.githubusercontent.com/abiForSofteam/virtualisation/main/nginx_from_host_browser.png">
 
