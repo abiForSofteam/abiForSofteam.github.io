@@ -3,3 +3,5 @@ _site
 gitpushauto.sh
 .gitignore
 vicss.sh
+createGitconnexion.sh
+createrepo.sh
