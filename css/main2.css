@@ -2,13 +2,14 @@
     font-size: 25px;
     letter-spacing: -0.1px;
     line-height: 0.5;
+    font-weight: bold
 }
 
 .post-content h2 {
-    font-size: 19px !important;
-    font-weight: bold !important;
-    line-height: 1.2 !important;
-    margin-top: 70px !important;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 70px;
 }
 
 h2 {
