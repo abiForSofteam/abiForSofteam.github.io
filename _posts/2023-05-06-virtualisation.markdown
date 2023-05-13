@@ -9,7 +9,7 @@ categories: infras
 Cet article montre une façon d'accéder à une page web d'une machine virtuelle (sur laquelle j'installe le serveur nginx), un accès depuis le navigateur du host (et non de la machine virtuelle même).
 \nObjectif: travailler plus aisément et plus efficacement
 
-### Environnement de travail
+## Environnement de travail
 Je précise que j'ai mis la VM en place à partir de Vagrant, en ayant choisi comme box, hashicorp/bionic64
 
 Nous travaillons donc sur le système ubuntu
