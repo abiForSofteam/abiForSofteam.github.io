@@ -1,3 +1,9 @@
+.post-title {
+    font-size: 25px;
+    letter-spacing: -0.1px;
+    line-height: 0.5;
+}
+
 .post-content h2 {
     font-size: 19px !important;
     font-weight: bold !important;
