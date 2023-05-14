@@ -1,8 +1,6 @@
-.footer-col-wrapper {
-  font-size: 15px;
-  color: #828282;
-  margin-left: -15px;
- background-image: url=('https://shalb.com/wp-content/uploads/2019/11/Devops1-1024x669.jpeg') !important
+.site-footer {
+ background-image: url=('https://shalb.com/wp-content/uploads/2019/11/Devops1-1024x669.jpeg') repeat: no-repeat;
+
 }
 
 
