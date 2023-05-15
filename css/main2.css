@@ -1,10 +1,9 @@
 .footer-col h2 {
 font-size: 14px !important;
 }
-
-
 .site-footer {
-border-top: 1px solid #424242;
+    border-top: 1px solid #e1dcdc;
+    background-image: url(https://shalb.com/wp-content/uploads/2019/11/Devops1-1024x669.jpeg);
 }
 
 .post-title {
