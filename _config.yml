@@ -1,10 +1,9 @@
 # Site settings
-title: Retour aux articles
+title: Articles
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+Ce site, au format blog, traitera d'outils et de pratiques relatifs au monde du Devops.
+Il sera donc en constante évolution, afin de couvrir les technologies les plus importantes ou du moins les plus utilisées de ce monde fascinant.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://abiforsofteam.blog.github.io/" # the base hostname & protocol for your site
 twitter_username: aliyoub
